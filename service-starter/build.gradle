@@ -3,3 +3,11 @@ bootJar {
     //archiveBaseName= System.getenv("BRANCH_NAME") + '-api'
 }
 jar { enabled = true }
+dependencies {
+    implementation(project(':common-domain'))
+    implementation project(':service-shell')
+    implementation project(':service-repo')
+    implementation project(':service-project')
+    implementation project(':service-build')
+    implementation project(':service-rest')
+}
