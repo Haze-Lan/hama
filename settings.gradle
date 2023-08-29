@@ -1,0 +1,10 @@
+rootProject.name = 'hama'
+include 'common-domain'
+include 'service-shell'
+include 'service-repo'
+include 'service-project'
+include 'service-build'
+include 'terminal-agant'
+include 'service-rest'
+include 'service-starter'
+

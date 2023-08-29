@@ -1,0 +1,5 @@
+bootJar {
+    enabled = true
+    //archiveBaseName= System.getenv("BRANCH_NAME") + '-api'
+}
+jar { enabled = true }
